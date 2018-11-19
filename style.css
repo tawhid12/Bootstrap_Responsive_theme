@@ -1,0 +1,58 @@
+.all > .container-fluid {
+   padding: 0px;
+}
+  .navbar {
+	background: none !important;
+
+	padding: 3px 15px;
+}
+
+  .jumbotron {
+	padding: 120px 0;
+	background-image: url(images/main.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	margin-bottom: 0px;
+	text-align: left;
+	position: relative;
+}
+.container .jumbotron, .container-fluid .jumbotron{
+	border-radius:0px;
+}
+/*================================
+        9. Counter Up
+================================*/
+.counter_up .row {
+	margin-bottom: -30px;
+}
+
+.counter-box {
+	margin: 0 0 30px;
+}
+
+.counter_up {
+	background-color: #f1f1f1;
+}
+
+.conter-1 {
+	background-color: #ffffff;
+	padding: 30px;
+	border-radius: 5px;
+	border: dotted 2px;
+	box-shadow: 3px 4px 10px 0px rgba(0, 0, 0, 0.22);
+}
+
+.counter_bar {
+	font-size: 55px;
+	line-height: 1.8;
+}
+
+.counter_up h3 {
+	font-size: 23px;
+	font-weight: 700;
+	letter-spacing: 2px;
+}
+
+.counter_up i {
+	font-size: 50px;
+}
